@@ -1,0 +1,323 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    background-color: #37517e;
+}
+.container{
+    margin: 0 auto;
+    width: 85%;
+}
+.navitem img{
+    background-color: aliceblue;
+    padding: 12px;
+    width: 300px;
+    height: 200px;
+}
+.navitems{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    list-style-type: none;
+}
+.navtop{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+}
+.menu li:hover{
+    color: rgb(0, 112, 191);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+
+
+
+
+
+
+.logo_big{
+    background-color: #37517e00;
+    border-radius: 40px;
+}
+.logo_maktab{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    gap: 70px;
+    padding: 140px;
+}
+.all{
+    margin-top: 15px;
+}
+.schoolbox h1{
+    color: rgb(0, 0, 0);
+    text-align: left;
+}
+
+
+
+
+.azizkh{
+    font-size: 30px;
+    color: aqua;
+    text-align: center;
+}
+
+
+
+
+.tadbir{
+    text-align: center;
+    padding: 35px;
+    margin: 16px;
+    color: aqua;
+}
+.infoimg{
+    background-color: rgb(214, 214, 214);
+    border-radius: 15px;
+}
+.mustaqillik{
+    text-align: center;
+    display: flex;
+    flex-wrap:wrap;
+}
+.infoimage img{
+    background-color: aliceblue;
+    padding: 12px;
+    margin: 3px;
+    width: 600px;
+    height: 450px;
+}
+
+.yil33{
+    color: aqua;
+    font-size: 55px;
+    padding: 9px;
+    margin: 5px;
+}
+.infoimg{
+    text-align: center;
+}
+
+
+.aboutimages{
+    padding-bottom: 50px;
+}
+
+
+
+
+
+
+.songi{
+    
+    background-color: rgba(255, 255, 255, 0.801);
+    border-radius: 15px;
+}
+.late{
+    padding-bottom: 50px;    
+}
+.aziz{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   flex-wrap: wrap;
+}
+
+.songi_img img{
+    background-color: aliceblue;
+    padding: 12px;
+    margin: 3px;
+    width: 600px;
+    height: 450px;
+}
+.azizbek{
+    color: aqua;
+    font-size: 55px;
+    padding: 9px;
+    margin: 5px;
+}
+
+.navroz{
+    
+    background-color: rgba(255, 255, 255, 0.514);
+    border-radius: 15px;
+}
+.navroz_img{
+        padding-bottom: 50px;    
+}
+.navroz_aziz{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   flex-wrap: wrap;
+}
+.navimg img{
+    padding: 12px;
+    background-color: aliceblue;
+    margin: 3px;
+    width: 600px;
+    height: 450px;
+}
+.aziz_shelbi_mafia{
+    color: aqua;
+    font-size: 55px;
+    padding: 9px;
+    margin: 5px;
+}
+
+
+
+
+
+
+
+.bizning_faxrimiz{
+    
+    background-color: rgba(255, 255, 255, 0.514);
+    border-radius: 15px;
+}
+.faxrimiz{
+        padding-bottom: 50px;    
+}
+.faxr{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   flex-wrap: wrap;
+}
+.faxrimg img{
+    padding: 12px;
+    background-color: aliceblue;
+    margin: 3px;
+    width: 600px;
+    height: 450px;
+}
+.azizkh{
+    text-align: center;
+    color: #37517e;
+    padding: 20px;
+    margin: 8px;
+}
+
+
+
+
+
+
+
+
+.all2{
+    background-image: url(./images/Без\ названия.png);
+
+}
+.bigbox{
+    display: flex;
+    align-items: center;
+}
+.box{
+    background-image: url(./images/фяшя.webp);
+    padding: 75px 0 75px 0;
+    background-color: aliceblue;
+    margin: 6px;
+    text-align: center;
+    color: aliceblue;
+}
+.box a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+.location{
+    background-color: aliceblue;
+    text-align: left;
+}
+.manzil{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.manzilbox{
+    display: inline-block;
+}
+.allaz{
+    background-color: #13284d;
+    padding: 70px;
+    margin-bottom: 125px;
+}
+.contact{
+    text-align: left;
+}
+.contact a{
+    text-decoration: none;
+}
+
+
+.end{
+    background-color: #37517e;
+}
+.endinfo{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.infobox{
+    border-right: 2px solid rgb(67, 67, 255);
+    padding:30px ;
+    margin: 6px;
+}
+.infobox i{
+    color: white;
+    font-size: 27px;
+    color: azure;
+}
+.end img{
+    text-align: center;
+}
+.infobox2 i{
+    color: white;
+    font-size: 35px;
+    text-align: right;
+}
+.bottom{
+    background-color: black;
+}
+.bottom h5{
+    color: red;
+}
+.infobox2:hover i{
+    
+transition: all 0.65s;
+transform: rotateY(360deg);
+}
+.infobox:hover i{
+    
+transition: all 0.65s;
+transform: rotateY(360deg);
+}
+.infobox2{
+    border-right: 2px solid  rgb(67, 67, 255);
+}
